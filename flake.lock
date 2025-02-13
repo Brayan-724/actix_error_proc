@@ -1,0 +1,47 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1739058639,
+        "narHash": "sha256-UswhsPbcBMlDvG6dzPrSQW9kRnJFLDwhx8HK1zdK2CI=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "5f9c18f8494c98e1eea779e9b7e4a3af93654f61",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "rust-overlay": "rust-overlay"
+      }
+    },
+    "rust-overlay": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1738981474,
+        "narHash": "sha256-YIELTXxfATG0g1wXjyaOWA4qrlubds3MG4FvMPCxSGg=",
+        "owner": "oxalica",
+        "repo": "rust-overlay",
+        "rev": "5c571e5ff246d8fc5f76ba6e38dc8edb6e4002fe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "oxalica",
+        "repo": "rust-overlay",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
